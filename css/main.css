@@ -306,9 +306,11 @@ header .sub-menu li a {
   max-width: 1200px;
 }
 .section--feature .tiles ul {
+  max-width: 1200px;
   display: flex;
 }
 .section--feature .tiles li {
+  height: 100%;
   padding: 34px 24px;
   text-align: center;
   line-height: 1.5;
@@ -516,5 +518,24 @@ footer .logo svg:hover {
   #sign-form {
     width: 100%;
     max-width: 500px;
+  }
+
+  /* MEDIA FEATURE */
+  .section--feature .tiles ul {
+    flex-wrap: wrap;
+  }
+  .section--feature .tiles li {
+    width: 50%;
+  }
+  .section--feature .tiles li img {
+    max-width: 60%;
+    max-height: 60%;
+    padding: 14px 10% 24px;
+    box-sizing: border-box;
+  }
+
+  /* card */
+  .section--pricing .card {
+    margin: 0 15px;
   }
 }
