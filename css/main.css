@@ -420,6 +420,7 @@ footer .logo svg:hover {
 
 /* MEDIA */
 @media (max-width: 1024px) {
+  /* HEADER MEDIA */
   header.section .inner {
     max-width: none;
     height: auto;
@@ -497,5 +498,23 @@ footer .logo svg:hover {
 
   #toggle-btn {
     display: block;
+  }
+
+  /* VISUAL MEDIA */
+  .section--visual {
+    background: url("../img/bg-small.jpg");
+  }
+  .section--visual .inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section--visual .summary {
+    margin-right: 0;
+  }
+  #sign-form {
+    width: 100%;
+    max-width: 500px;
   }
 }
