@@ -1,0 +1,40 @@
+/* MEDIA FEATURE */
+.section--feature .tiles ul {
+  flex-wrap: wrap;
+}
+.section--feature .tiles li {
+  width: 100%;
+}
+.section--feature .tiles li img {
+  max-width: 60%;
+  max-height: 60%;
+}
+/* card */
+.section--pricing .card {
+  flex-direction: column;
+}
+.section--pricing .card .cell1 {
+  height: 50px;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* footer */
+footer .inner {
+  display: block;
+}
+footer .inner .site-links {
+  justify-content: center;
+  margin-bottom: 25px;
+}
+footer .inner .site-links li a {
+  font-size: 14px;
+}
+
+footer .inner .site-links.footer-left li {
+  margin-right: 15px;
+}
+
+footer .inner .logo {
+  display: none;
+}
